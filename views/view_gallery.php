@@ -9,11 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <?php
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "picgal";
-
+  include "../config.inc.php";
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
   // Check connection

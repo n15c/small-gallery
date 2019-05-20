@@ -1,9 +1,6 @@
 <?php
   include '../inc/resize_image.inc.php';
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "picgal";
+include "../config.inc.php";
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
